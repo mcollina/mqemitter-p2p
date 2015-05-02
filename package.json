@@ -24,6 +24,7 @@
     "fastseries": "^1.0.0"
   },
   "devDependencies": {
+    "level": "^0.18.0",
     "faucet": "0.0.1",
     "memdb": "^0.2.0",
     "pre-commit": "^1.0.7",

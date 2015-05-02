@@ -1,0 +1,7 @@
+
+message BenchMessage {
+  required string topic = 1;
+  required string payload = 2;
+  required int32 counter = 0;
+}
+

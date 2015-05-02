@@ -40,6 +40,8 @@ function MQEmitterP2P (opts) {
   this._hyper.status.on('ready', function () {
     that._ready = true
   })
+
+  this.status = this._hyper.status
 }
 
 inherits(MQEmitterP2P, MQEmitter)
