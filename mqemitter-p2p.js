@@ -72,4 +72,12 @@ MQEmitterP2P.prototype.close = function (cb) {
   }
 }
 
+MQEmitterP2P.prototype.listen = function () {
+  this._hyper.listen.apply(this._hyper, arguments)
+}
+
+MQEmitterP2P.prototype.connect = function () {
+  this._hyper.connect.apply(this._hyper, arguments)
+}
+
 module.exports = MQEmitterP2P
