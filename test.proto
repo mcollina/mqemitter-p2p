@@ -1,0 +1,10 @@
+
+message MyMessage {
+  required string topic = 1;
+  optional Payload payload = 2;
+
+  message Payload {
+    required string my = 1;
+  }
+}
+

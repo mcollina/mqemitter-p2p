@@ -1,0 +1,50 @@
+{
+  "name": "mqemitter-p2p",
+  "version": "0.0.1",
+  "description": "A P2P implementation of MQEmitter, based on HyperEmitter and a Merkle DAG",
+  "main": "mqemitter-p2p.js",
+  "scripts": {
+    "test": "tape test.js | faucet",
+    "lint": "standard"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "dependencies": {
+    "faucet": "^0.0.1",
+    "hyperemitter": "^1.0.2",
+    "memdb": "^0.2.0",
+    "mqemitter": "^0.4.0",
+    "pre-commit": "^1.0.7",
+    "protocol-buffers": "^3.0.0",
+    "standard": "^3.7.2",
+    "tape": "^4.0.0",
+    "through2": "^0.6.5",
+    "fastseries": "^1.0.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "memdb": "^0.2.0",
+    "pre-commit": "^1.0.7",
+    "standard": "^3.7.2",
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcollina/mqemitter-p2p.git"
+  },
+  "keywords": [
+    "mqemitter",
+    "p2p",
+    "mqtt",
+    "event",
+    "emitter"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcollina/mqemitter-p2p/issues"
+  },
+  "homepage": "https://github.com/mcollina/mqemitter-p2p"
+}
