@@ -1,25 +1,3 @@
-# mqemitter-p2p
-
-A P2P implementation of MQEmitter, based on [HyperEmitter](http://github.com/mcollina/hyperemitter) and a [Merkle DAG](http://npm.im/hyperlog)
-
-HyperEmitter-powered [MQEmitter](http://github.com/mcollina/mqemitter).
-
-See [MQEmitter](http://github.com/mcollina/mqemitter) for the actual
-API.
-The `listen` and `connect` function are exposed from the internal
-`HyperEmitter`.
-
-Install
--------
-
-```bash
-$ npm install mqemitter-p2p --save
-```
-
-Example
--------
-
-```js
 var fs = require('fs')
 var path = require('path')
 var schema = fs.readFileSync(path.join(__dirname, 'test.proto'))
@@ -62,10 +40,3 @@ b.on('hello', function (received, cb) {
     })
   })
 })
-```
-
-
-License
--------
-
-ISC
