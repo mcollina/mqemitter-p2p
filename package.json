@@ -1,6 +1,6 @@
 {
   "name": "mqemitter-p2p",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A P2P implementation of MQEmitter, based on HyperEmitter and a Merkle DAG",
   "main": "mqemitter-p2p.js",
   "scripts": {
